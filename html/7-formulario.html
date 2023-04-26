@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html {
+    background-color: #DEDEDE;
+    }
+    
+    body {
+    padding: 1% 20%;
+    background-color: #DEDEDE;
+    }
+    
+    h1 {
+    text-align: center;
+    font-size: 50px;
+    }
+    
+    img {
+    width: 10%;
+    height: 10%;
+    }
+    
+    p {
+    text-align: justify;
+    }
+    </style>
+<body>
+    <h1>Formulario de inscripcion Jovenes a la U</h1>
+    <p>Porfavor no omitir ninguna casilla sr usuario</p>
+   <form></form>
+   <fieldset>
+    <Label> Nombre:</Label>
+    <input type="text" id="name" placeholder="Ingrese sus nombres" required>
+    <br>
+    <label for="Apellidos">Apellidos:</label>
+    <input type="text" id="name" placeholder="Ingrese sus apellidos">
+    <br>
+    <label for="correo">Correo:</label>
+    <input type="email" id="mail" placeholder="jovenesalaU@mail.co" required>
+</fieldset>
+    <br>
+    <label for="Age">Edad:</label>
+    <input type="Date">
+    <br>
+    <label for="number">Numero telefonico</label>
+    <input type="number">
+    <hr>
+    <label for="comentarios">Deja tus comentarios</label>
+    <textarea id="comentarios" cols="20" rows="10" maxlength="100" minlength="5" placeholder="Dejanos tus comentarios (opcional)"></textarea>
+    <hr>
+    <input type="checkbox" required>
+    <label>Acepto terminos y condiciones</label>
+    <br>
+    <select>
+        <option>PHP</option>
+        <option>JavaScript</option>
+        <option>Python</option>
+        </select>
+        <br>
+        <label>JavaScript</label>
+<input type="radio" name="lenguaje" id="lenguaje-py" value="f">
+    <br>
+    <h2>Seleccione su lenguaje favorito</h2>
+<!-- Radio permite seleccionar una opcion -->
+<input type="radio" name="lenguaje" id="lenguaje-php" value="php">
+<label>PHP</label>
+<input type="radio" name="lenguaje" id="lenguaje-js" value="js">
+<label>JavaScript</label>
+<input type="radio" name="lenguaje" id="lenguaje-py" value="py">
+<label>Python</label>
+<br>
+    <input type="submit">
+    <br>
+    <a href="https://www.facebook.com/juancastano05/"><img src="img/iconoFacebook.png" alt="fb"></a>
+</form>
+</body>
+</html>
